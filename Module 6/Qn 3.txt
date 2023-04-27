@@ -1,0 +1,34 @@
+root@ubuntu:~/sample$ wc test.txt
+ 13  26 179 test.txt
+
+root@ubuntu:~/sample$ head test.txt
+
+Hi
+I am Daranya
+OG1600
+Mepco Schlenk Engineering College
+Tirunelveli
+Cheranmahadevi
+Dindigul Daranya
+Empty line
+EmbedUR
+Another empty line
+                    
+root@ubuntu:~/sample$ cat test.txt
+Hi
+I am Daranya
+OG1600
+Mepco Schlenk Engineering College
+Tirunelveli
+Cheranmahadevi
+Dindigul Daranya
+Empty line
+EmbedUR
+Another empty line
+Chennai
+Another empty line
+Final line X
+
+
+root@ubuntu:~/sample$ grep 'X' test.txt
+Final line X
